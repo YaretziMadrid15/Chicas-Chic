@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | Chicas Chic</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#fff7f9;
+}
+
+/* MENÚ */
+
+nav{
+    position:sticky;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background-color:rgba(255,255,255,0.95);
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size:30px;
+    color:#d67fa1;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#555;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#d67fa1;
+}
+
+/* ENCABEZADO */
+
+.encabezado{
+    text-align:center;
+    padding:70px 20px 30px;
+}
+
+.encabezado h1{
+    font-size:55px;
+    color:#d67fa1;
+}
+
+.encabezado p{
+    color:#666;
+    font-size:20px;
+    margin-top:15px;
+}
+
+/* CONTENIDO */
+
+.contenedor{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.tarjeta{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.tarjeta h2{
+    color:#d67fa1;
+    margin-bottom:15px;
+}
+
+.tarjeta p{
+    color:#555;
+    line-height:1.8;
+}
+
+.info{
+    font-size:18px;
+    margin:10px 0;
+}
+
+/* FORMULARIO */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+textarea{
+    resize:none;
+    height:150px;
+}
+
+button{
+    background:#d67fa1;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#c46c90;
+}
+
+/* FOOTER */
+
+footer{
+    background:#fff0f5;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chicas Chic</div>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="productos.html">Productos</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+<li><a href="presentacion.html">Presentación</a></li>
+</ul>
+
+</nav>
+
+<section class="encabezado">
+
+<h1>Contáctanos</h1>
+
+<p>
+Si te quieres ver chic, siempre contáctanos. 💕<br>
+Estaremos felices de atenderte y ayudarte a encontrar tus productos favoritos.
+</p>
+
+</section>
+
+<div class="contenedor">
+
+<div class="tarjeta">
+
+<h2> Redes Sociales</h2>
+
+<p class="info">Instagram: @chicaschic</p>
+<p class="info">Facebook: Chicas Chic</p>
+<p class="info">WhatsApp: 962 1140327 </p>
+
+</div>
+
+<div class="tarjeta">
+
+<h2>📍 Ubicación</h2>
+
+<p>
+Tapachula, Chiapas, México.
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h2> Envíanos un mensaje</h2>
+
+<form>
+
+<input type="text" placeholder="Tu nombre">
+
+<input type="email" placeholder="Tu correo electrónico">
+
+<textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Chicas Chic | Proyecto Escolar</p>
+</footer>
+
+</body>
+</html>

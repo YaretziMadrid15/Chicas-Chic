@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos | Chicas Chic</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#fff7f9;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background-color:rgba(255,255,255,0.95);
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    z-index:1000;
+}
+
+.logo{
+    font-size:30px;
+    color:#d67fa1;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#555;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#d67fa1;
+}
+
+.titulo{
+    text-align:center;
+    padding:60px 20px 20px;
+}
+
+.titulo h1{
+    color:#d67fa1;
+    font-size:50px;
+}
+
+.titulo p{
+    color:#777;
+    margin-top:10px;
+}
+
+.categoria{
+    color:#d67fa1;
+    margin:50px 40px 20px;
+    font-size:30px;
+}
+
+.productos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:0 40px;
+}
+
+.tarjeta{
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-8px);
+}
+
+.tarjeta img{
+    width:160px;
+    height:160px;
+    object-fit:contain;
+}
+
+.tarjeta h3{
+    color:#d67fa1;
+    margin:15px 0;
+}
+
+.boton{
+    display:inline-block;
+    background:#d67fa1;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:30px;
+}
+
+footer{
+    margin-top:50px;
+    text-align:center;
+    padding:25px;
+    background:#fff0f5;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chicas Chic</div>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="productos.html">Productos</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+<li><a href="presentacion.html">Presentación</a></li>
+</ul>
+
+</nav>
+
+<section class="titulo">
+<h1>Nuestros Productos</h1>
+<p>Siempre lindas, siempre chic ✨</p>
+</section>
+
+<h2 class="categoria"> Maquillaje</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/rubor.JPG">
+<h3>Yves Saint Laurent| Blush en polvo</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/gloss.JPG">
+<h3>Dior Addict Lip</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/lip balm.JPG">
+<h3>Summer Fridays| Lip Butter Balm</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/contorno.JPG">
+<h3>Sheglam| Contorno Líquido</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/contorno dior.JPG">
+<h3>Dior| Blush en polvo Forever Natural Bronze</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/blush dior.JPG">
+<h3>Dior| Blush en polvo compacto</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/brillo.JPG">
+<h3>Rare Beauty| Iluminador en Polvo</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+
+</section>
+
+<h2 class="categoria"> Accesorios</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/cosmetiquera.JPG">
+<h3>Victoria´s Secret| Cosmetiquera </h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/espejo.JPG">
+<h3>Espejo de Tocador</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/espejo chico.JPG">
+<h3>Mini Espejo </h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/brochas.JPG">
+<h3>Set de Brochas</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/ganchito.JPG">
+<h3>Set de Ganchitos</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/diadema.JPG">
+<h3>Diadema Spa</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/pulsera.JPG">
+<h3>Van Cleef & Arpels| Pulsera Vintage/ Oro Rosa </h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/funda.JPG">
+<h3>Rhode| Lip Case</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/camara.JPG">
+<h3>Cámara Vintage</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/masajeador.JPG">
+<h3>Masajeador Facial</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/enchinador.JPG">
+<h3>Dior| Enchinador</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+</section>
+
+<h2 class="categoria"> Bolsas y Perfumes</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/perfume corazon.JPG">
+<h3>Ariana Grande| Thank U Next</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+<div class="tarjeta">
+<img src="imagenes/body.JPG">
+<h3>Victoria´s Secret| Coconut Milk & Rose</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+
+<div class="tarjeta">
+<img src="imagenes/bolsa coach.JPG">
+<h3>Coach| Bolsa con estampado de estrellas</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/bolsa dior.JPG">
+<h3> Christian Dior| Bolsa de Hombro Saddle Oblique mediana de lona bordada</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/bolsa zading.JPG">
+<h3>Zading & Voltaire| Bolsa Crossbody con logo</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+</section>
+
+<h2 class="categoria">Termos</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/termo.JPG">
+<h3>Stanley| Verde Pastel</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/termo 2.JPG">
+<h3>Stanley| Beige </h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/termo 3.JPG">
+<h3>Stanley| Azul Pastel</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+</section>
+
+<h2 class="categoria">Snacks</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/crumbl.JPG">
+<h3>Crumbl Paquete</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/crumbl oreo.JPG">
+<h3>Crumbl Oreo</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/crumbl red.JPG">
+<h3>Crumbl Red Velvet</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/crumbl rosa.JPG">
+<h3>Crumbl</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/nerds.JPG">
+<h3>Nerds Gummy</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/chocolates.JPG">
+<h3>Chocolates Reese´s</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/xile chile.JPG">
+<h3>Xile Chile</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+</section>
+
+<h2 class="categoria">Calzado</h2>
+
+<section class="productos">
+
+<div class="tarjeta">
+<img src="imagenes/veja.JPG">
+<h3>Tenis Veja</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+<div class="tarjeta">
+<img src="imagenes/samba.JPG">
+<h3>Tenis Samba</h3>
+<a href="#" class="boton">Ver más</a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Chicas Chic | Proyecto Escolar</p>
+</footer>
+
+</body>
+</html>
+
+       

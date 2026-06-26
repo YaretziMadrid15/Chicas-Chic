@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chicas Chic</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #fff7f9;
+        }
+
+        /* MENU */
+
+        nav{
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: rgba(255,255,255,0.85);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+        }
+
+        .logo{
+            font-size: 30px;
+            color: #d67fa1;
+            font-weight: bold;
+        }
+
+        nav ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            color: #d67fa1;
+        }
+
+        /* BANNER */
+
+        .inicio{
+            height: 100vh;
+            background-image: url("imagenes/banner.png");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* BOTON */
+
+        .contenido{
+            background-color: rgba(255,255,255,0.25);
+            padding: 20px 30px;
+            border-radius: 25px;
+            backdrop-filter: blur(5px);
+        }
+
+        .boton{
+            text-decoration: none;
+            background-color: #d67fa1;
+            color: white;
+            padding: 15px 35px;
+            border-radius: 40px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .boton:hover{
+            background-color: #b85f82;
+        }
+
+        /* FOOTER */
+
+        footer{
+            background-color: #fff0f5;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: #d67fa1;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <nav>
+
+        <div class="logo">
+            Chicas Chic
+        </div>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="presentacion.html">Presentación</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- BANNER -->
+
+    <section class="inicio">
+
+        <div class="contenido">
+
+            <a href="productos.html" class="boton">
+                Ver Productos
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Proyecto escolar |
+            <a href="presentacion.html">
+                Ver hoja de presentación
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
